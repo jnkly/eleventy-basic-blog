@@ -1,0 +1,11 @@
+{
+  "title": "Eleventy Basic Blog",
+  "url": "https://jnkly.github.io/eleventy-basic-blog/",
+  "baseurl": "https://jnkly.github.io/eleventy-basic-blog/",
+  "repo": "http://github.com/jnkly/eleventy-basic-blog",
+  "comments": false,
+  "author": {
+    "name": "John Kelly"
+  },
+  "og_locale": "en_GB"
+}
