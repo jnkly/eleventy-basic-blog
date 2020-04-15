@@ -1,7 +1,7 @@
 # Ignore installed npm modules
 node_modules/
 
-# Ignore eleventy output when doing manuell tests
+# Ignore eleventy output when doing manual tests
 _site/
 
 package-lock.json
