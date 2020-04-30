@@ -1,1 +1,0 @@
-Locastion of blog items
