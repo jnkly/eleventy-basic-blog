@@ -1,0 +1,8 @@
+/* Import Inter font */
+@import url('https://rsms.me/inter/inter.css'); 
+
+
+body {
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+}

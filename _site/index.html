@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleventy Basic Blog</title>
+<!-- capture the CSS content as a Nunjucks variable -->
+
+<!-- feed it through our cssmin filter to minify -->
+<style>
+  @import url(https://rsms.me/inter/inter.css);body{font-size:100%;font-family:Inter,sans-serif}
+</style>
+</head>
+<body>
+<header class="header">
+    <a href="/">Eleventy Basic Blog</a>
+    <nav>
+    <ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/credits">Credits</a></li>
+    <li><a href="/contact">Contact</a></li>
+    </ul>
+    </nav>
+</header>
+  <main class="main"><h1>Hello, world!</h1>
+<p>This is an <a href="https://www.11ty.dev/">11ty</a> starter. It includes a basic blog, a few pages.</p>
+<h2>Blog posts</h2>
+<ul>
+<li>
+<p><a href="/blog/post-3/">This is my third, and latest post</a></li></p>
+</li>
+<li>
+<p><a href="/blog/post-2/">Woohoo! My second post</a></li></p>
+</li>
+<li>
+<p><a href="/blog/post-1/">This is my first ever post!!</a></li></p>
+</li>
+</ul>
+</main>
+<footer class="footer">
+    <div>
+    <small>Eleventy Basic Blog</small>
+    </div>
+</footer>
+</body>
+</html>
