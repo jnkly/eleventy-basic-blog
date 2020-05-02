@@ -8,7 +8,7 @@ This is an [11ty](https://www.11ty.dev/) starter. It includes a basic blog, a fe
 
 ## Blog posts
 
-{%- assign posts = collections.post | reverse -%}
+{%- assign posts = collections.post -%}
 {% for post in posts %}
 - [{{ post.data.title }}]({{ post.url }})</li>
 {% endfor %}
