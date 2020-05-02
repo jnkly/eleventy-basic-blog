@@ -12,7 +12,7 @@ collections:
     preview_path: "pages/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
       - { label: "Title", name: "title", widget: "string"}
       - {label: "Permalink Override (Pattern: '/your-slug/index.html')", name: "permalink", widget: "string", required: false}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
@@ -26,7 +26,7 @@ collections:
     preview_path: "posts/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.njk"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
